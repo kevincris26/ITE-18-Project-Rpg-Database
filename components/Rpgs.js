@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
-
-
+// Rpgs component displays the list of RPGs fetched from the Strapi CMS.
 const Rpgs = ({ rpgs }) => {
   return (
     <>
