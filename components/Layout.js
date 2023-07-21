@@ -2,6 +2,9 @@ import Head from 'next/head';
 import Nav from './Nav';
 import { UserProvider } from '../lib/authContext';
 
+// Layout component represents the overall structure of the application.
+// It wraps the content with UserProvider to manage user data.
+
 const Layout = ({ user, loading = false, children }) => (
     <UserProvider value={{ user, loading }}>
         <Head>
