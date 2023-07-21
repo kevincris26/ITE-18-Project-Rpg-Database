@@ -53,7 +53,6 @@ To set up the RPG Database project, follow these steps:
 
 git clone <repository-url>
 
-
 2. Change to the project directory:
 
 cd rpg-database
