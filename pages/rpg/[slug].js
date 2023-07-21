@@ -3,9 +3,11 @@ import Layout from "../../components/Layout";
 import { fetcher } from "../../lib/api";
 import { useFetchUser } from "../../lib/authContext";
 
+// Rpg component displays detailed information about a specific RPG based on its slug.
 const Rpg = ({ rpg }) => {
     const { user, loading } = useFetchUser();
-
+    
+     // If the RPG data is not available, display a loading message.
     if (!rpg || !rpg.attributes || !rpg.attributes.slug) {
         return <Layout>Loading...</Layout>;
     }
