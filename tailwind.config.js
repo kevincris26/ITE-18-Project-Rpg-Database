@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+// Tailwind CSS configuration file.
+// Extend Tailwind theme and add additional plugins.
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
