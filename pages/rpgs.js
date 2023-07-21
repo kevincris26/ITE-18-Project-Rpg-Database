@@ -5,6 +5,7 @@ import useSWR from 'swr';
 import { useState } from 'react';
 import { useFetchUser } from '../lib/authContext';
 
+// RpgsList component displays the list of RPGs fetched from the Strapi CMS.
 const RpgsList = ({ rpgs }) => {
     const { user } = useFetchUser();
     const [pageIndex, setPageIndex] = useState(1);
