@@ -1,6 +1,7 @@
 import { useFetchUser } from "../lib/authContext";
 import Layout from "../components/Layout";
 
+// Home component displays the home page of the RPG Database.
 export default function Home() {
   const { user, loading } = useFetchUser();
   return (
